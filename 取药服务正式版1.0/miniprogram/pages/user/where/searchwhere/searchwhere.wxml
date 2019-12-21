@@ -1,0 +1,8 @@
+<view class='title'>请输入地址关键词</view>
+
+<view class="section"> 
+  <input placeholder="输入关键词" auto-focus type="text" bindinput="bindKeyInput"/> 
+</view> 
+<view class="sug_info"> 
+  <text class='sug_info'>{{sugData}}</text> 
+</view>

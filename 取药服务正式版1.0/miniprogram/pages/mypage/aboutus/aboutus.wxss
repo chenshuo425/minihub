@@ -1,0 +1,20 @@
+.cai{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+font-size:50px;
+}
+
+.study{
+   text-align:center;
+}
+
+page {
+overflow:hidden;
+position:fixed;
+background-image:url('https://pic1.zhimg.com/80/v2-a7600c674bdd7e66787e29a07b1d5ef2_hd.jpg');
+margin: 0px;
+/*下面的是关键的设置100%显示*/
+background-size: 100% 100%;
+}

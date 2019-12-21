@@ -1,0 +1,29 @@
+<view class='history-table-wrap'>
+    <view class="table">
+      
+      <view class="tr">
+          <view class="th th1">药品</view>
+          <view class="th th2">规格</view>
+          <view class="th th3">效果</view>
+          <view class="th th4">实图</view>
+      </view>
+      <view class="tr" >
+          <view class="td td1">云南白药</view>
+          <view class="td td2">60g+50g</view>
+          <view class="td td3">化瘀止血、活血止痛、解毒消肿</view>
+          <view class="td td4"><image class="yunnan" src="../../images/yunnan.jpg"></image></view>
+      </view>
+      <view class="tr" >
+          <view class="td td1">阿斯匹林肠溶片</view>
+          <view class="td td2">25mg</view>
+          <view class="td td3">用于感冒、流感等发热疾病的退热，治疗风湿痛等</view>
+          <view class="td td4"><image class="aspl" src="../../images/aspl.jpg"></image></view>
+      </view>
+      <view class="tr" wx:for="{{10}}">
+          <view class="td td1">暂无 </view>
+          <view class="td td2">暂无 </view>
+          <view class="td td3">暂无 </view>
+          <view class="td td4">暂无 </view>
+      </view>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<view class='header'><text>欢迎您的到来</text></view>
+
+<button bindtap="takemedicine" class="kb">开始取药</button>
+
+<button bindtap="medicine" class="kb">可领药品</button>
+
+<button bindtap="where" class="kb">搜寻取药处</button>
+
+<view class='share'>
+   <view class='like'>
+      <view class='iconfont icon-aixin'></view>
+   </view>
+   <view class='weixin'>
+       <button open-type="share" class='iconfont icon-weixin'></button>
+   </view>
+</view>

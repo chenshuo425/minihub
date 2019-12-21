@@ -1,0 +1,41 @@
+.header{
+text-align: center;
+color:rgb(109, 109, 173);
+font-size: 50px;
+margin-top:30px;
+
+}
+
+image{
+
+width: 380px
+
+}
+
+.kb{
+margin-top: 60px;
+
+width:300px;
+
+height:70px;
+
+border:gray solid;
+
+color:rgba(255, 255, 255, 0.900);
+
+background:rgba(0,0,0,0.3);
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+
+page {
+overflow:hidden;
+position:fixed;
+background-image:url('https://pic3.zhimg.com/80/v2-e16b8769e2b2d71b881283c02bda6ed9_hd.jpg');
+margin: 0px;
+/*下面的是关键的设置100%显示*/
+background-size: 100% 100%;
+}

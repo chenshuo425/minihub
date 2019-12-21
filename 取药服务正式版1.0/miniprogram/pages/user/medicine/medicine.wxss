@@ -1,0 +1,68 @@
+.history-table-wrap{
+  position: absolute;
+  width: 668rpx;
+  height: 1000rpx;
+  left: 50%;
+  margin-left: -334rpx;
+  top: 70rpx;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/* 表格代码   */
+.table{
+  border:1px solid #dadada;
+  border-right:0;
+  border-bottom: 0;
+  width: 98%;
+  margin-left: 1%;
+}
+.tr{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+.th,.td{
+  padding: 10px;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+  width: 100%;
+}
+.th1,.th2,.th3,.td1,.td2,.td3{
+  width: 60%;
+}
+.th{
+  font-weight: 800;
+  background:rgba(0,0,0,0.1);
+  font-size: 38rpx;
+  color: #4f504f;
+}
+.td{
+  font-size: 28rpx;
+  color: #767c7a;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+background:rgba(0,0,0,0.1)
+}
+
+
+/*药物实图代码*/
+.yunnan{
+width: 180rpx;
+height: 250rpx;
+}
+
+.aspl{
+width: 180rpx;
+height: 250rpx;
+}
+
+page {
+overflow:hidden;
+position:fixed;
+background-image:url('https://pic2.zhimg.com/80/v2-3b731198709091ef09f4da9e97630d4d_hd.jpg');
+margin: 0px;
+/*下面的是关键的设置100%显示*/
+background-size: 100% 100%;
+}

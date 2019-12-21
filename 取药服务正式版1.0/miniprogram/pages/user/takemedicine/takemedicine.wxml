@@ -1,0 +1,19 @@
+<view class="section">
+  <view class="section__title">请选择药物类型</view>
+  <picker bindchange="bindPickerChange1" value="{{medName}}" range="{{array1}}">
+    <view class="picker">
+      当前选择：{{array1[medName]}}
+    </view>
+  </picker>
+</view>
+
+<view class="section">
+  <view class="section__title">请选择药物数量</view>
+  <picker bindchange="bindPickerChange2" value="{{medNumber}}" range="{{array2}}">
+    <view class="picker">
+      当前选择：{{array2[medNumber]}}
+    </view>
+  </picker>
+</view>
+
+<button class="formbtn" bindtap="datapoints" disabled="{{buttonClicked}}">一键取药</button>

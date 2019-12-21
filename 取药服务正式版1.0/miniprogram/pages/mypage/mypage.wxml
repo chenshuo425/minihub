@@ -1,0 +1,24 @@
+<view class='header'>
+<open-data type="userAvatarUrl" class="userInfo"></open-data> 
+</view> 
+
+<view><open-data type="userNickName" lang="zh_CN" class="user"></open-data>  
+</view>
+
+
+<button open-type="feedback" class='bk'> 反馈与建议</button>
+<button open-type='contact' class='bk'>联系客服 </button>
+<button bindtap="help" class='bk'>帮助</button>
+<button bindtap="aboutus" class='bk'>关于我们</button>
+
+ 
+
+
+<view class='share'>
+   <view class='like'>
+      <view class='iconfont icon-aixin'></view>
+   </view>
+   <view class='weixin'>
+       <button open-type="share" class='iconfont icon-weixin'></button>
+   </view>
+</view>

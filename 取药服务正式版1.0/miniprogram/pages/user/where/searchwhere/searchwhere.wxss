@@ -1,0 +1,31 @@
+.title{
+font-size:45px;
+color:rgb(58, 247, 168);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top:60px;
+
+}
+
+.section{
+ border:rgb(155, 144, 144) solid;
+  margin-top: 20px;
+  color:rgb(44, 48, 47);
+}
+
+.sug_info{
+
+  color:rgb(147, 253, 227);
+  background: rgba(132, 136, 130, 0.315);
+}
+
+
+page {
+overflow:hidden;
+position:fixed;
+background-image:url('https://pic2.zhimg.com/80/v2-65354520edd978c49d00a7a710feb9c5_hd.jpg');
+margin: 0px;
+/*下面的是关键的设置100%显示*/
+background-size: 100% 100%;
+}

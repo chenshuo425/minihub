@@ -1,0 +1,54 @@
+.lb{
+margin-top: 120px;
+
+width:300px;
+
+height:100px;
+
+font: center;
+
+border:gray solid;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+color:white;
+
+background:rgba(0,0,0,0.3);
+
+}
+
+.lb2{
+margin-top: 150px;
+
+width:300px;
+
+height:100px;
+
+font: center;
+
+border:gray solid;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+color:rgba(255, 255, 255, 0.9);
+
+background:rgba(0,0,0,0.3);
+
+}
+
+page {
+overflow:hidden;
+position:fixed;
+background-image:url('https://pic1.zhimg.com/80/v2-67c55990da335e4696ed9db1a126ff00_hd.jpg');
+margin: 0px;
+/*下面的是关键的设置100%显示*/
+background-size: 100% 100%;
+}

@@ -1,0 +1,16 @@
+.donotask{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 100px;
+ font-size:80px
+}
+
+page {
+overflow:hidden;
+position:fixed;
+background-image:url('https://pic4.zhimg.com/80/v2-544908be012561c2905bd4cb3acf8923_hd.jpg');
+margin: 0px;
+/*下面的是关键的设置100%显示*/
+background-size: 100% 100%;
+}

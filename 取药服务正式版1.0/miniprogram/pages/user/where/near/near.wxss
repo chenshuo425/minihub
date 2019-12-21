@@ -1,0 +1,32 @@
+.title{
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgba(128, 128, 128, 0.5);
+color:rgba(255, 0, 0, 0.705);
+}
+
+.map_container{ 
+    height: 300px; 
+    width: 120%; 
+} 
+
+.map { 
+    height: 120%; 
+    width: 120%; 
+} 
+
+.place_info{
+     margin-top: 65px;
+     color:rgb(230, 240, 238);
+     background: rgba(132, 136, 130, 0.5);
+}
+
+page {
+overflow:hidden;
+position:fixed;
+background-image:url('https://pic4.zhimg.com/80/v2-94887992750b6f612edd8896760fdbc6_hd.jpg');
+margin: 0px;
+/*下面的是关键的设置100%显示*/
+background-size: 100% 100%;
+}

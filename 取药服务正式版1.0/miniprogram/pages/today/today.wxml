@@ -1,0 +1,58 @@
+<view  wheatherData font:center class="weather"> 
+<image class='draw'  src="../images/currentCity.png"></image>
+<text>{{weatherData.currentCity}}</text> 
+</view>
+<view  wheatherData font:center class="weather"> 
+<image class='draw'  src="../images/pm25.png"></image>
+<text>{{weatherData.pm25}}</text>
+</view>
+<view  wheatherData font:center class="weather"> 
+<image class='draw'  src="../images/data.png"></image>
+ <text>{{weatherData.data}}</text>
+ </view>
+ 
+
+<view class="music" wx:if="{{!isOpen}}" bindtap="listenerButtonPlay">
+  <image class="music2" src='https://y.gtimg.cn/music/photo_new/T002R300x300M000001zzFtE3o5YUo.jpg?max_age=2592000' />
+  <image src='../images/play.png' class="music3"></image>
+</view>
+<!--当前为播放状态  -->
+<view class="music" wx:if="{{isOpen}}" bindtap="listenerButtonPause">
+  <image class="music2" src='https://y.gtimg.cn/music/photo_new/T002R300x300M000001zzFtE3o5YUo.jpg?max_age=2592000' />
+  <image src='../images/pause.png' class="music3"></image>
+</view>
+<!--当前为暂停状态  -->
+
+<view class='slid'>
+      <slider bindchange="sliderChange"  block-size="12px" step="2" value="{{offset}}" max="{{max}}" selected-color="#4c9dee" ></slider>
+      <view>
+        <text class='times'>{{starttime}}</text> <!-- 进度时长 -->
+       
+        <text class='times'>{{duration}}</text>   <!-- 总时长 -->
+      </view>
+</view>
+
+
+<view  wheatherData font:center class="weather"> 
+ <image class='draw'  src="../images/temperature.png"></image>
+  <text>{{weatherData.temperature}}</text>
+  </view>
+  <view  wheatherData font:center class="weather"> 
+  <image class='draw'  src="../images/weatherDesc.png"></image>
+   <text>{{weatherData.weatherDesc}}</text> 
+   </view>
+   <view  wheatherData font:center class="weather"> 
+   <image class='draw'  src="../images/wind.png"></image>
+      <text>{{weatherData.wind}}</text> 
+</view>
+
+
+
+<view class='share'>
+   <view class='like'>
+      <view class='iconfont icon-aixin'></view>
+   </view>
+   <view class='weixin'>
+       <button open-type="share" class='iconfont icon-weixin'></button>
+   </view>
+</view>
